@@ -1,0 +1,14 @@
+.hero-image{
+    background-image: url("./JellyIMAGES/headerjelly.jpg");
+    height: 208px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color:whitesmoke;
+    position: absoulte;
+    text-align: center;
+    top: 280px;
+}
