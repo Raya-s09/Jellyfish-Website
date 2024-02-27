@@ -1,3 +1,11 @@
+* {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+}
+
+img {
+    width: 100%;
+}
+
 .hero-image{
     background-image: url("./JellyIMAGES/headerjelly.jpg");
     height: 208px;
@@ -10,5 +18,20 @@
     color:whitesmoke;
     position: absoulte;
     text-align: center;
-    top: 280px;
+    top: 108px;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    width: 80;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.info{
+    font-size: 1.25em;
 }
