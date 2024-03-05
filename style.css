@@ -2,8 +2,13 @@
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
 }
 
+html {
+    background-color: rgb(131, 128, 173);
+}
+
 img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .hero-image{
@@ -12,6 +17,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
 }
 
 .hero-text{
@@ -34,4 +40,24 @@ img {
 
 .info{
     font-size: 1.25em;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    float: none;
+    object-fit: cover;
+}
+.card {
+    background-color: rgb(134, 147, 181);
+}
+
+.card-text {
+    text-align: center;
+    color: whitesmoke;
 }
