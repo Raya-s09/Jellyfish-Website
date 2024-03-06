@@ -3,21 +3,26 @@
 }
 
 html {
-    background-color: rgb(131, 128, 173);
+    background-color: rgb(64, 64, 80);
 }
 
 img {
     width: 100%;
     border-radius: 10px;
+    border-color: rgb(252,205,125);
+    border-style: double;
+    opacity: 80%;
 }
 
 .hero-image{
-    background-image: url("./JellyIMAGES/headerjelly.jpg");
+    background-image: url("./JellyIMAGES/headerjelly3.jpg");
     height: 208px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    border-style: double;
+    border-color: rgb(252,205,125);
 }
 
 .hero-text{
@@ -30,6 +35,7 @@ img {
 }
 
 .two-column {
+    color:azure;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 50px;
@@ -54,10 +60,23 @@ img {
     object-fit: cover;
 }
 .card {
-    background-color: rgb(134, 147, 181);
+    background-color: rgb(255, 223, 164);
+    border-color: rgb(255, 230, 188);
+    border-style: inset;
 }
 
 .card-text {
     text-align: center;
     color: whitesmoke;
+}
+
+p {
+    border-color: rgb(242, 214, 159);
+    border-style:outset;
+}
+
+h1 {
+    border-color: rgb(173, 187, 187);
+    border-style: inset;
+    background-color:rgb(189, 203, 203);
 }
